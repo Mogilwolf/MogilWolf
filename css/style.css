@@ -1,0 +1,60 @@
+h2{color: blue;}
+body
+{
+    background-color:aqua;
+    margin: 0;
+    padding: 0;
+}
+footer
+{
+    background-color:darkslateblue;
+}
+header
+{
+    background-color: deepskyblue;
+
+}
+main
+{
+    background-color:palegreen ;
+    border-radius:  5px;
+}
+h1,h2,h3,h4,h4,h5,h6
+{
+    margin: 0;
+    text-shadow: 2px 3px 3px black; 
+    
+}
+ul
+{
+    list-style: none;
+    margin: 0
+}
+a
+{
+    text-decoration: none;
+}
+html
+{
+    padding: 0;
+}
+.padding-text
+{
+    padding: 10px;
+}
+li a
+{
+    color: azure;
+}
+button
+{
+    color:darkviolet;
+    text-shadow: 2px 3px 3px black; 
+    background-color:cyan;
+    border-radius:  5px;
+    -webkit-border-radius:  5px;
+}
+.border-pic
+{
+    outline: solid 5px white;
+}
