@@ -1,33 +1,27 @@
 h2{color: blue;}
-body
-{
+body{
     background-color:aqua;
     margin: 0;
     padding: 0;
     height: 100%;
 }
-footer
-{
+footer{
     background-color:darkslateblue;
 }
-header
-{
+header{
     background-color: deepskyblue;
 
 }
-main
-{
+main{
     background-color:palegreen ;
     border-radius:  5px;
 }
-h1,h2,h3,h4,h4,h5,h6
-{
+h1,h2,h3,h4,h4,h5,h6{
     margin: 0;
     text-shadow: 2px 3px 3px black; 
     
 }
-ul
-{
+u1{
     margin: 0;
     list-style: none;
     display: flex;
@@ -35,31 +29,30 @@ ul
     justify-content: space-evenly;
     align-items: flex-end;
 }
-a
-{
+a{
     text-decoration: none;
 }
-html
-{
+html{
     padding: 0;
 }
-.padding-text
-{
+.padding-text{
     padding: 10px;
 }
-li a
-{
+li a{
     color: azure;
 }
-button
-{
+button{
     color:darkviolet;
     text-shadow: 2px 3px 3px black; 
     background-color:cyan;
     border-radius:  5px;
     -webkit-border-radius:  5px;
 }
-.border-pic
-{
+.border-pic{
     outline: solid 5px white;
+}
+.for-form{
+    height: 200px;
+    width: 300px;
+    background-color: lightseagreen;
 }
