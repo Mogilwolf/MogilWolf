@@ -8,6 +8,9 @@ body{
 footer{
     background-color:gray;
     padding: 15px;
+    position: absolute;
+	bottom: 0;
+	width: 96%;
 }
 header{
     background-color:rgb(31, 30, 30);
@@ -37,6 +40,11 @@ a{
 html{
     padding: 0;
 }
+
+div{
+    display: flex;
+    justify-content:end;
+}
 .padding-text{
     padding: 10px;
 }
@@ -50,6 +58,7 @@ button{
     border-radius:  5px;
     -webkit-border-radius:  5px;
 }
+
 .border-pic{
     outline: solid 5px purple;
     border-radius: 5px;
@@ -75,4 +84,8 @@ button{
     justify-content: start;
     align-items: start;
     margin-top: 35px;
+}
+.social{
+    display: flex;
+    justify-content:end;
 }
