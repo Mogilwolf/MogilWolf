@@ -7,10 +7,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Задание</title>
       <link rel="stylesheet" href="css/style.css" />
+      <title>2015</title>
     </head>
     <body>
       <header>
-        <h2>Веб-технологии</h2>
+        <h2 >Веб-технологии</h2>
         <img
           class="nonCircle"
           src="Images/demon.jpg"
@@ -25,14 +26,15 @@
             <li><a href="register_form.html"> Регистрация</a></li>
             <li><a href="competence.html">Компетенция</a></li>
             <li><a href="photo.html"> Фото</a></li>
+            <li><a href="form.html">Форма</a></li>
           </ul>
         </nav>
       </header>
       <main class="padding-text">
         <div class="content">
-          <div class="content__block">
-            <article class="article_wrapper">
-              <div class="block_information">
+          <div class="content__block" >
+            <article class="article_wrapper"onclick="changeColor(this)">
+              <div class="block_information" >
                 <h6>1244-4214</h6>
                 <h4>Генна на</h4>
                 <hr />
@@ -43,13 +45,13 @@
                 </p>
               </div>
               <div class="block__author">
-                <a href="https://t.me/WHKAME">
+                <a>
                   <img class="circle" src="Images/cumмила.jpg" alt="Author" />
                 </a>
                 <p>Внимание анекдот</p>
               </div>
             </article>
-            <article class="article_wrapper">
+            <article class="article_wrapper" onclick="changeColor(this)">
               <div class="block_information">
                 <h6>1244-4214</h6>
                 <h4>Генна на</h4>
@@ -61,13 +63,13 @@
                 </p>
               </div>
               <div class="block__author">
-                <a href="https://t.me/WHKAME">
+                <a>
                   <img class="circle" src="Images/cumмила.jpg" alt="Author" />
                 </a>
                 <p>Внимание анекдот</p>
               </div>
             </article>
-            <article class="article_wrapper">
+            <article class="article_wrapper" onclick="changeColor(this)">
               <div class="block_information">
                 <h6>1244-4214</h6>
                 <h4>Генна на</h4>
@@ -79,7 +81,7 @@
                 </p>
               </div>
               <div class="block__author">
-                <a href="https://t.me/WHKAME">
+                <a>
                   <img class="circle" src="Images/cumмила.jpg" alt="Author" />
                 </a>
                 <p>Внимание анекдот</p>
@@ -88,6 +90,12 @@
           </div>
         </div>
       </main>
+      <script>
+        function changeColor(element) {
+          var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+          element.style.backgroundColor = randomColor;
+          }
+      </script>
     </body>
     <footer>
       <div class="forh6">
@@ -105,5 +113,8 @@
         /></a>
       </div>
     </footer>
+    <script>
+      console.log("Hello!")
+    </script>
   </html>
 </html>
