@@ -20,11 +20,29 @@ var textQuest = document.getElementById("question").value;
 if (typeof elements != typeof '') {
     elements = ''
 }
-
-console.log (elements + ' \n' + checkedValues + ' \n' + theme + ' \n' +
-textFirst + ' \n' + textEmail + ' \n' + textPhone + ' \n' + textQuest)
 }
 let list_no_select = Array.from(document.getElementsByClassName("no_select"));
         list_no_select.forEach((element) => {
             element.addEventListener("click", f);
         });
+
+
+
+function tst() {
+        let theme = document.getElementById("theme");
+            let buttons = document.getElementById("buttons");
+        
+        
+            if (theme.getAttribute("href") == "css/style.css"){
+                theme.href = "css/darkstyle.css";
+                buttons.src = "images/sun.png"
+                localStorage.setItem("buttons","css/darkstyle.css");
+        
+            }
+            else{
+                theme.href = "css/style.css";
+                buttons.src = "images/moon.png"
+                localStorage.setItem("buttons","css/style.css");
+        
+            }
+        }
